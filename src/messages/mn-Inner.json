@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "title": "Heartway — ᠬᠦᠮᠦᠨ ᠦ ᠰᠡᠳᠬᠢᠯ ᠬᠣᠯᠪᠣᠭ᠎ᠠ",
+    "description": "ᠲᠠᠭᠤᠴᠢᠵᠤ ᠬᠣᠯᠪᠣᠭᠳᠠᠭᠠᠷᠠᠢ᠃ ᠬᠠᠢᠷ ᠳᠤᠷᠯᠠᠯ ᠤᠨ ᠵᠥᠪᠯᠡᠯᠭᠡ ᠪᠯᠣᠭ ᠠᠴᠠ ᠤᠨᠤᠰᠠᠨ᠎ᠠ ᠤᠤ᠃"
+  },
+  "common": {
+    "appName": "Heartway",
+    "loading": "ᠠᠴᠢᠶᠠᠯᠠᠵᠤ ᠪᠠᠶᠢᠨ᠎ᠠ…",
+    "save": "ᠬᠠᠳᠠᠭᠠᠯᠠᠬᠤ",
+    "cancel": "ᠬᠣᠭᠣᠰᠬᠤ",
+    "delete": "ᠤᠰᠠᠳᠬᠤ",
+    "edit": "ᠵᠠᠰᠠᠬᠤ",
+    "back": "ᠪᠤᠴᠠᠬᠤ",
+    "next": "ᠳᠠᠷᠠᠭᠠᠯ",
+    "submit": "ᠢᠯᠭᠡᠬᠦ",
+    "close": "ᠬᠠᠠᠬᠤ",
+    "yes": "ᠲᠡᠢᠮᠦ",
+    "no": "ᠤᠭᠤᠢ",
+    "or": "ᠡᠰᠡᠪᠡ",
+    "errorGeneric": "ᠠᠯᠳᠠᠭ᠎ᠠ ᠭᠠᠷᠪᠠ᠃ ᠳᠠᠬᠢᠨ ᠣᠷᠣᠯᠳᠤᠭᠠᠷᠠᠢ᠃",
+    "language": "ᠬᠡᠯᠡ"
+  },
+  "nav": {
+    "discover": "ᠡᠷᠬᠡᠬᠦ",
+    "matches": "ᠲᠠᠭᠤᠴᠢᠰᠠᠨ",
+    "messages": "ᠵᠢᠰᠡᠭ",
+    "blog": "ᠪᠯᠣᠭ",
+    "profile": "ᠫᠷᠣᠹᠠᠢᠯ",
+    "settings": "ᠲᠣᠬᠢᠷᠠᠭ᠎ᠠ",
+    "login": "ᠨᠡᠪᠲᠡᠷᠡᠬᠦ",
+    "signup": "ᠪᠦᠷᠲᠡᠭᠦᠯᠡᠬᠦ",
+    "logout": "ᠭᠠᠷᠠᠬᠤ",
+    "admin": "ᠠᠳᠮᠢᠨ"
+  },
+  "landing": {
+    "heroTitle": "ᠲᠠᠨ ᠢ ᠣᠢᠯᠠᠭᠰᠠᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠤᠤᠯᠵᠠ",
+    "heroSubtitle": "ᠤᠬᠠᠠᠯᠠᠭ᠎ᠠ ᠰᠣᠩᠭᠣ᠂ ᠤᠲᠠᠭ᠎ᠠ ᠲᠠᠭᠤᠴᠢᠵᠤ ᠠᠶᠤᠯᠭᠠᠭᠤᠷ᠎ᠠ ᠬᠣᠯᠪᠣᠭᠳᠠᠭᠠᠷᠠᠢ᠃",
+    "ctaPrimary": "ᠦᠬᠡ ᠪᠦᠷᠲᠡᠭᠦᠯᠡᠬᠦ",
+    "ctaSecondary": "ᠪᠯᠣᠭ ᠤᠨᠤᠰᠠᠬᠤ",
+    "featureSwipeTitle": "ᠰᠣᠩᠭᠣᠬᠤ & super like",
+    "featureSwipeDesc": "ᠪᠦᠬᠦᠢ ᠲᠣᠬᠢᠷᠣᠭᠴᠢᠳ ᠳᠡᠭᠡᠷ᠎ᠡ ᠻᠠᠷᠲ ᠳᠠᠭᠠᠤ᠎ᠠ᠃",
+    "featurePromptsTitle": "ᠫᠷᠣᠹᠠᠢᠯ ᠦᠨ ᠠᠰᠠᠭᠤᠯᠲ",
+    "featurePromptsDesc": "Hinge ᠠᠷᠭ᠎ᠠ ᠵᠢᠷᠤᠭ ᠳᠡᠭᠡᠷ᠎ᠡ ᠲᠣᠭᠲᠠᠭᠠᠮᠵᠢ like ᠬᠢᠬᠦ᠃",
+    "featureSafetyTitle": "ᠠᠶᠤᠯᠭ᠎ᠠ ᠡᠬᠢᠯᠡᠪᠡ",
+    "featureSafetyDesc": "ᠳᠣᠷᠣᠮᠲᠣᠯ ᠢ ᠮᠡᠳᠡᠭᠡᠬᠦ᠂ ᠬᠡᠨ ᠵᠢᠰᠡᠭ ᠪᠢᠴᠢᠬᠦ ᠡᠷᠬᠡ ᠬᠠᠮᠠᠠᠷᠠᠢ᠃",
+    "featureBlogTitle": "ᠬᠠᠢᠷ ᠦᠨ ᠪᠯᠣᠭ",
+    "featureBlogDesc": "ᠭᠤᠷᠪᠠᠳᠤᠭᠠᠷ ᠬᠡᠯᠡᠳᠡᠭᠡᠷ ᠬᠠᠢᠷ ᠳᠤᠷᠯᠠᠯ ᠤᠨ ᠵᠥᠪᠯᠡᠯᠭᠡ᠃"
+  },
+  "auth": {
+    "loginTitle": "ᠲᠠᠪᠲᠠᠢ ᠮᠣᠷᠢᠯ",
+    "signupTitle": "Heartway ᠳᠤ ᠨᠡᠭᠡᠳᠡᠭᠡᠷᠡᠢ",
+    "email": "ᠢᠮᠧᠢᠯ",
+    "password": "ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ",
+    "passwordHint": "ᠬᠠᠮᠠᠭᠢᠨ ᠤ 8 ᠲᠡᠮᠳᠡᠭᠲ",
+    "name": "ᠬᠠᠷᠤᠭᠤᠯᠠᠬᠤ ᠨᠡᠷᠡ",
+    "loginButton": "ᠨᠡᠪᠲᠡᠷᠡᠬᠦ",
+    "signupButton": "ᠪᠦᠷᠲᠡᠭᠦᠯᠡᠬᠦ",
+    "noAccount": "ᠪᠦᠷᠲᠡᠭᠦᠯ ᠦᠭᠡᠢ ᠦᠦ?",
+    "hasAccount": "ᠪᠦᠷᠲᠡᠭᠦᠯᠲᠡᠢ ᠦᠦ?",
+    "invalidCredentials": "ᠢᠮᠧᠢᠯ ᠡᠰᠡᠪᠡ ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠪᠤᠷᠤᠤ᠃",
+    "invalidCredentialsHint": "ᠢᠮᠧᠢᠯ ᠡᠰᠡᠪᠡ ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠪᠤᠷᠤᠤ᠃",
+    "sessionFailed": "ᠨᠡᠪᠲᠡᠷᠡх амжилтгүй᠃",
+    "emailTaken": "ᠡᠨᠡ ᠢᠮᠧᠢᠯ ᠪᠦᠷᠲᠡᠭᠦᠯᠭᠡᠳᠡᠭᠰᠡᠨ᠃",
+    "signupSuccess": "ᠪᠦᠷᠲᠡᠭᠦᠯ ᠦᠦᠰᠯᠡᠭᠡ᠃ ᠫᠷᠣᠹᠠᠢᠯ ᠢ ᠪᠡᠶᠡᠯᠡᠭᠡᠷᠡᠢ᠃",
+    "noVerificationEmail": "ᠢᠮᠧᠢᠯ ᠢᠯᠭᠡᠬᠦ ᠦᠭᠡᠢ᠃ ᠪᠦᠷᠲᠡᠭᠦᠯᠡᠬᠦᠳ ᠦᠨ ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠢ ᠠᠰᠢᠭᠯᠠᠨ᠎ᠠ ᠤᠤ᠃",
+    "forgotPassword": "ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠮᠠᠷᠲᠠᠭᠰᠠᠨ ᠤᠤ?",
+    "resetTitle": "ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠰᠡᠷᠭᠡᠬᠦ",
+    "resetSubtitle": "ᠢᠮᠧᠢᠯ ᠪᠣᠯᠣᠨ ᠰᠢᠨᠡ ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠣᠷᠣᠭᠤᠯᠨ᠎ᠠ ᠤᠤ᠃ ᠢᠮᠧᠢᠯ ᠢᠯᠭᠡᠬᠦ ᠦᠭᠡᠢ᠃",
+    "newPassword": "ᠰᠢᠨᠡ ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ",
+    "resetButton": "ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠲᠣᠬᠢᠷᠤᠭᠤᠯᠠᠬᠤ",
+    "resetSuccess": "ᠨᠤᠭᠤᠴ᠎ᠠ ᠦᠭᠡ ᠰᠢᠨᠡᠴᠢᠯᠡᠭᠡ᠃ ᠨᠡᠪᠲᠡᠷᠡᠵᠦ ᠪᠣᠯᠨᠣ᠃",
+    "resetNotFound": "ᠡᠨᠡ ᠢᠮᠧᠢᠯ ᠲᠡᠢ ᠪᠦᠷᠲᠡᠭᠦᠯ ᠦᠭᠡᠢ᠃",
+    "resetFailed": "ᠰᠡᠷᠭᠡᠬᠦ ᠠᠮᠵᠢᠯᠲᠠ ᠦᠭᠡᠢ᠃"
+  },
+  "onboarding": {
+    "title": "ᠫᠷᠣᠹᠠᠢᠯ ᠲᠣᠬᠢᠷᠤᠭᠤᠯᠠᠬᠤ",
+    "stepBasics": "ᠦᠨᠳᠦᠰᠦᠨ",
+    "stepPhotos": "ᠵᠢᠷᠤᠭ",
+    "stepPrompts": "ᠠᠰᠠᠭᠤᠯᠲ",
+    "stepPreferences": "ᠰᠣᠩᠭᠣᠯ",
+    "displayName": "ᠨᠡᠷᠡ",
+    "birthDate": "ᠲᠥᠷᠦᠭᠰᠡᠨ ᠡᠳᠦᠷ",
+    "gender": "ᠪᠢ",
+    "bio": "ᠮᠢᠨᠢᠢ ᠲᠤᠬᠠᠢ",
+    "city": "ᠬᠣᠲᠠ",
+    "photoUrl": "ᠵᠢᠷᠤᠭ ᠦᠨ ᠬᠠᠶᠢᠭ",
+    "addPhoto": "ᠵᠢᠷᠤᠭ ᠨᠡᠮᠡᠬᠦ",
+    "selectPrompt": "ᠠᠰᠠᠭᠤᠯᠲ ᠰᠣᠩᠭᠣᠬᠤ",
+    "yourAnswer": "ᠬᠠᠷᠢᠭᠤᠯᠲ",
+    "showMe": "ᠨᠠᠳᠠᠳ ᠬᠠᠷᠤᠭᠤᠯᠬᠤ",
+    "ageRange": "ᠨᠠᠰᠤᠨ ᠦ ᠬᠢᠵᠠᠭᠠᠷ",
+    "maxDistance": "ᠬᠠᠮᠠᠭᠢᠨ ᠦ ᠵᠠᠢ (ᠻᠮ)",
+    "womenMessageFirst": "ᠡᠮᠡᠭᠲᠡᠢ ᠡᠬᠯᠡᠵᠦ ᠪᠢᠴᠢᠬᠦ (Bumble)",
+    "womenMessageFirstHint": "ᠰᠢᠨᠡ ᠲᠠᠭᠤᠴᠢᠰᠠᠨ ᠳᠤ ᠡᠮᠡᠭᠲᠡᠢ ᠡᠬᠯᠡᠨ ᠵᠢᠰᠡᠭ ᠢᠯᠭᠡᠨᠡ᠃",
+    "complete": "ᠳᠤᠤᠰᠠᠭᠠᠳ ᠡᠬᠢᠯᠡᠬᠦ",
+    "genders": {
+      "MALE": "ᠡᠷᠡ",
+      "FEMALE": "ᠡᠮᠡ",
+      "NON_BINARY": "ᠪᠢᠨᠠᠷ ᠪᠤᠰ",
+      "OTHER": "ᠪᠤᠰᠠᠳ",
+      "PREFER_NOT_TO_SAY": "ᠬᠡᠯᠡᠬᠦ ᠦᠭᠡᠢ"
+    }
+  },
+  "discover": {
+    "title": "ᠡᠷᠬᠡᠬᠦ",
+    "noMore": "ᠣᠢᠷ ᠫᠷᠣᠹᠠᠢᠯ ᠳᠤᠤᠰᠠᠭᠰᠠᠨ᠃ ᠳᠠᠬᠢᠨ ᠣᠷᠣᠳᠤᠭᠠᠷᠠᠢ᠃",
+    "like": "Like",
+    "pass": "Pass",
+    "superLike": "Super like",
+    "commentPlaceholder": "Like ᠲᠠᠢ ᠰᠡᠳᠬᠢᠯ (ᠰᠣᠩᠭᠣᠬᠤ ᠦᠭᠡᠢ)",
+    "kmAway": "{distance} ᠻᠮ ᠵᠠᠢ",
+    "itsAMatch": "ᠲᠠᠭᠤᠴᠢᠵᠠᠪᠠ!",
+    "sendMessage": "ᠵᠢᠰᠡᠭ ᠪᠢᠴᠢᠬᠦ",
+    "keepSwiping": "ᠦᠷᠭᠡᠵᠦ ᠰᠣᠩᠭᠣᠬᠤ",
+    "paused": "ᠫᠷᠣᠹᠠᠢᠯ ᠵᠣᠭᠰᠣᠨ᠃ ᠲᠣᠬᠢᠷᠠᠭ᠎ᠠ ᠠᠴᠠ ᠨᠡᠡᠬᠡ᠃"
+  },
+  "matches": {
+    "title": "ᠲᠠᠭᠤᠴᠢᠰᠠᠨ",
+    "empty": "ᠣᠳᠣᠬᠢ ᠲᠠᠭᠤᠴᠢᠭᠰᠠᠨ ᠦᠭᠡᠢ᠃ ᠦᠷᠭᠡᠵᠦ ᠰᠣᠩᠭᠣᠭᠠᠷᠠᠢ!",
+    "newMatch": "ᠰᠢᠨᠡ ᠲᠠᠭᠤᠴᠢᠰᠠᠨ",
+    "messageThem": "ᠵᠢᠰᠡᠭ"
+  },
+  "messages": {
+    "title": "ᠵᠢᠰᠡᠭ",
+    "empty": "ᠶᠠᠷᠢᠯᠴᠠ ᠦᠭᠡᠢ᠃",
+    "placeholder": "ᠵᠢᠰᠡᠭ ᠪᠢᠴᠢᠬᠦ…",
+    "send": "ᠢᠯᠭᠡᠬᠦ",
+    "waitingForHer": "ᠲᠡᠷᠡ ᠡᠬᠯᠡᠵᠦ ᠪᠢᠴᠢᠨᠡ᠃",
+    "waitingForHim": "ᠲᠡᠷᠡ ᠡᠬᠯᠡᠵᠦ ᠪᠢᠴᠢᠨᠡ᠃",
+    "unlockHint": "ᠨᠥᠭᠥᠭᠡᠳ ᠡᠬᠯᠡᠨ ᠵᠢᠰᠡᠭ ᠢᠯᠭᠡᠨᠡ᠃",
+    "report": "ᠮᠡᠳᠡᠭᠡᠬᠦ",
+    "block": "ᠪᠯᠣᠺ ᠬᠢᠬᠦ"
+  },
+  "profile": {
+    "title": "ᠮᠢᠨᠢᠢ ᠶᠢᠨ ᠫᠷᠣᠹᠠᠢᠯ",
+    "edit": "ᠵᠠᠰᠠᠬᠤ",
+    "preview": "ᠤᠷᠢᠳᠴᠢᠯᠠᠨ ᠬᠠᠷᠠᠬᠤ",
+    "yearsOld": "{age} ᠨᠠᠰᠤᠲᠠᠢ"
+  },
+  "settings": {
+    "title": "ᠲᠣᠬᠢᠷᠠᠭ᠎ᠠ",
+    "discovery": "ᠢᠯᠷᠦᠯᠡᠬᠦ",
+    "discoveryOn": "Discover ᠳᠤ ᠬᠠᠷᠤᠭᠤᠯᠬᠤ",
+    "discoveryOff": "ᠫᠷᠣᠹᠠᠢᠯ ᠵᠣᠭᠰᠣᠬᠤ",
+    "preferences": "ᠲᠠᠭᠤᠴᠢᠬᠤ ᠰᠣᠩᠭᠣᠯ",
+    "account": "ᠪᠦᠷᠲᠡᠭᠦᠯ",
+    "safety": "ᠠᠶᠤᠯᠭ᠎ᠠ",
+    "saved": "ᠬᠠᠳᠠᠭᠠᠯᠠᠭᠳᠠᠪᠠ᠃"
+  },
+  "report": {
+    "title": "ᠬᠡᠷᠡᠭᠯᠡᠭᠴᠢ ᠢ ᠮᠡᠳᠡᠭᠡᠬᠦ",
+    "reason": "ᠰᠢᠯᠲᠠ ᠭᠠᠷᠴᠠᠭ",
+    "details": "ᠨᠡᠮᠡᠯᠲ ᠲᠠᠢᠯᠪᠤᠷᠢ (ᠰᠣᠩᠭᠣᠬᠤ ᠦᠭᠡᠢ)",
+    "submit": "ᠢᠯᠭᠡᠬᠦ",
+    "success": "ᠪᠠᠶᠠᠷᠯᠠᠯᠠ᠃ ᠪᠢᠳᠡ ᠰᠢᠯᠭᠡᠨᠡ᠃",
+    "reasons": {
+      "HARASSMENT": "ᠳᠣᠷᠣᠮᠲᠣᠯ",
+      "INAPPROPRIATE_CONTENT": "ᠲᠣᠬᠢᠷᠠᠮᠵᠢᠭᠤᠢ ᠠᠭᠤᠯᠭ᠎ᠠ",
+      "SPAM": "ᠰᠫᠠᠮ᠂ ᠯᠤᠶᠢᠪᠠᠷ",
+      "FAKE_PROFILE": "ᠬᠤᠤᠷᠠᠮᠴᠢ ᠫᠷᠣᠹᠠᠢᠯ",
+      "UNDERAGE": "ᠨᠠᠰᠤᠨ ᠤ ᠬᠢᠴᠡᠭᠦᠢ ᠮᠡᠲ",
+      "OTHER": "ᠪᠤᠰᠠᠳ"
+    }
+  },
+  "blog": {
+    "title": "ᠬᠠᠢᠷ & ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ",
+    "subtitle": "ᠬᠠᠢᠷ᠂ ᠬᠣᠯᠪᠣᠭ᠎ᠠ᠂ ᠡᠷᠦᠬᠡᠮ ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠶᠢᠨ ᠵᠥᠪᠯᠡᠯᠭᠡ᠃",
+    "readMore": "ᠤᠨᠤᠰᠠᠬᠤ",
+    "empty": "ᠨᠢᠭᠡᠭᠡᠰᠡᠨ ᠨᠢᠶᠲᠡᠯᠡᠯ ᠦᠭᠡᠢ᠃",
+    "backToList": "ᠪᠦᠬᠦᠢ ᠨᠢᠶᠲᠡᠯᠡᠯ",
+    "publishedOn": "ᠨᠢᠭᠡᠭᠰᠡᠨ {date}"
+  },
+  "admin": {
+    "title": "ᠪᠯᠣᠭ ᠠᠳᠮᠢᠨ",
+    "newPost": "ᠰᠢᠨᠡ ᠨᠢᠶᠲᠡᠯᠡᠯ",
+    "editPost": "ᠵᠠᠰᠠᠬᠤ",
+    "slug": "URL slug",
+    "locale": "ᠬᠡᠯᠡ",
+    "postTitle": "ᠭᠠᠷᠴᠢᠭ",
+    "excerpt": "ᠲᠣᠪᠴᠢᠯᠠᠭ",
+    "content": "ᠠᠭᠤᠯᠭ᠎ᠠ (Markdown)",
+    "coverImage": "ᠨᠢᠶᠢᠲᠯᠡᠯ ᠦᠨ ᠵᠢᠷᠤᠭ ᠦᠨ ᠬᠠᠶᠢᠭ",
+    "published": "ᠨᠢᠭᠡᠭᠡᠬᠦ",
+    "savePost": "ᠬᠠᠳᠠᠭᠠᠯᠠᠬᠤ",
+    "deleteConfirm": "ᠤᠰᠠᠳᠬᠤ ᠤᠤ?",
+    "postsList": "ᠪᠦᠬᠦᠢ ᠨᠢᠶᠲᠡᠯᠡᠯ"
+  },
+  "prompts": {
+    "ideal_sunday": "ᠮᠢᠨᠢᠢ ᠶᠢᠨ ᠮᠥᠷᠥᠭᠡᠳᠯᠢᠨ ᠨᠢᠶᠠᠮ ᠭᠠᠷᠠᠭ…",
+    "green_flag": "ᠪᠢ ᠡᠷᠬᠡᠬᠦ ᠰᠠᠢᠨ ᠰᠢᠨᠵ…",
+    "together_we_could": "ᠬᠠᠮᠲᠤ ᠪᠢᠳᠡ…",
+    "love_language": "ᠮᠢᠨᠢᠢ ᠶᠢᠨ ᠬᠠᠢᠷ ᠦᠨ ᠬᠡᠯᠡ…",
+    "controversial_opinion": "ᠮᠠᠷᠭᠠᠠᠨᠲᠠᠢ ᠪᠣᠳᠣᠯ…"
+  },
+  "footer": {
+    "privacy": "ᠨᠢᠭᠤᠴᠠ",
+    "terms": "ᠨᠥᠬᠴᠡᠯ",
+    "safety": "ᠠᠶᠤᠯᠭ᠎ᠠ",
+    "copyright": "© {year} Heartway"
+  }
+}
