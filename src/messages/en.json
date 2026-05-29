@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Heartway — Dating that feels human",
-    "description": "Swipe, match, and connect. Read relationship advice on our blog."
+    "description": "Connect with Mongols across North America — dating, community forum, and stories about life abroad."
   },
   "common": {
     "appName": "Heartway",
@@ -25,6 +25,7 @@
     "matches": "Matches",
     "messages": "Messages",
     "blog": "Blog",
+    "forum": "Forum",
     "profile": "Profile",
     "settings": "Settings",
     "login": "Log in",
@@ -33,18 +34,19 @@
     "admin": "Admin"
   },
   "landing": {
-    "heroTitle": "Meet someone who gets you",
-    "heroSubtitle": "Swipe thoughtfully, match meaningfully, and chat safely — inspired by the best of Tinder, Bumble, and Hinge.",
+    "heroTitle": "Mongols in North America, together",
+    "heroSubtitle": "The community app built for us — meet people who share your language and story, swap advice on the forum, and read honest blogs about life abroad.",
     "ctaPrimary": "Create free account",
-    "ctaSecondary": "Read the blog",
+    "ctaSecondary": "Community & blog",
+    "ctaForum": "Join the forum",
     "featureSwipeTitle": "Swipe & super like",
     "featureSwipeDesc": "Pass, like, or super like profiles in a smooth card stack on any device.",
     "featurePromptsTitle": "Profile prompts",
     "featurePromptsDesc": "Answer prompts so others can like a specific photo or answer — Hinge-style depth.",
     "featureSafetyTitle": "Safety first",
     "featureSafetyDesc": "Report harassment, block bad actors, and control who can message you.",
-    "featureBlogTitle": "Dating blog",
-    "featureBlogDesc": "Articles on love, relationships, and modern dating — available in three languages."
+    "featureBlogTitle": "Blog & forum",
+    "featureBlogDesc": "Articles on dating and living abroad, plus a forum to ask questions and help each other — in English, Mongolian, and traditional script."
   },
   "auth": {
     "loginTitle": "Welcome back",
@@ -165,13 +167,58 @@
       "OTHER": "Other"
     }
   },
+  "community": {
+    "title": "Community",
+    "blog": "Blog",
+    "forum": "Forum"
+  },
   "blog": {
-    "title": "Dating & relationships",
-    "subtitle": "Advice on love, connection, and healthy relationships.",
+    "title": "Stories & guides",
+    "subtitle": "Dating, friendship, and real talk about Mongolian life in North America — living alone abroad, finding your people, and more.",
     "readMore": "Read article",
     "empty": "No articles published yet.",
     "backToList": "All articles",
     "publishedOn": "Published {date}"
+  },
+  "forum": {
+    "title": "Community forum",
+    "subtitle": "Ask questions, share tips, and help fellow Mongols in Canada, the U.S., and beyond.",
+    "newTopic": "New topic",
+    "newTopicHint": "Be kind and specific. Topics about moving, work, family, dating, and culture are welcome.",
+    "loginToPost": "Log in to post",
+    "loginToReply": "Log in to reply",
+    "empty": "No discussions yet. Start the first topic!",
+    "backToList": "All topics",
+    "replyCount": "{count, plural, one {# reply} other {# replies}}",
+    "replies": "{count, plural, one {# reply} other {# replies}}",
+    "replyPlaceholder": "Write your reply…",
+    "postReply": "Post reply",
+    "postTopic": "Post topic",
+    "posting": "Posting…",
+    "topicTitlePlaceholder": "Topic title",
+    "topicBodyPlaceholder": "What would you like to discuss?",
+    "createError": "Could not create topic. Check title and body length.",
+    "replyError": "Could not post reply.",
+    "pinned": "Pinned",
+    "locked": "Locked",
+    "adminBadge": "Admin",
+    "delete": "Delete",
+    "deleteReplyConfirm": "Delete this reply?"
+  },
+  "adminHub": {
+    "title": "Admin",
+    "subtitle": "Manage blog articles and forum discussions.",
+    "blog": "Blog CMS",
+    "forum": "Forum moderation"
+  },
+  "adminForum": {
+    "title": "Forum admin",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this topic and all replies?"
   },
   "admin": {
     "title": "Blog admin",

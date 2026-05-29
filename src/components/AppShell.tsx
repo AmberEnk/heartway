@@ -2,7 +2,15 @@
 
 import { useTranslations } from "next-intl";
 import { useSession } from "next-auth/react";
-import { Compass, Heart, MessageCircle, User, BookOpen, Settings } from "lucide-react";
+import {
+  Compass,
+  Heart,
+  MessageCircle,
+  User,
+  BookOpen,
+  MessagesSquare,
+  Settings,
+} from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { cn } from "@/lib/utils";
@@ -24,9 +32,13 @@ export function AppShell({
         { href: "/matches", icon: Heart, label: t("matches") },
         { href: "/messages", icon: MessageCircle, label: t("messages") },
         { href: "/blog", icon: BookOpen, label: t("blog") },
+        { href: "/forum", icon: MessagesSquare, label: t("forum") },
         { href: "/profile", icon: User, label: t("profile") },
       ]
-    : [{ href: "/blog", icon: BookOpen, label: t("blog") }];
+    : [
+        { href: "/blog", icon: BookOpen, label: t("blog") },
+        { href: "/forum", icon: MessagesSquare, label: t("forum") },
+      ];
 
   return (
     <div className="flex min-h-screen flex-col">

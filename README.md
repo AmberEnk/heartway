@@ -8,8 +8,9 @@ A responsive dating web app (Tinder / Bumble / Hinge–style) built with **Next.
 - **Profile prompts** — answer prompts on your profile
 - **Matches & messaging** — real-time polling chat; optional **women message first** (Bumble-style)
 - **Safety** — report users (harassment, spam, fake profile, etc.)
-- **Blog** — relationship articles per locale
-- **Admin CMS** — add/edit/publish blog posts at `/[locale]/admin/blog`
+- **Blog** — articles on dating, living abroad, and community life (EN / MN / traditional)
+- **Forum** — users post topics and replies; admins pin, lock, or moderate at `/[locale]/admin/forum`
+- **Admin CMS** — blog at `/[locale]/admin/blog`, hub at `/[locale]/admin`
 - **i18n** — all UI strings in `src/messages/*.json` for proofreading
 - **PWA-ready** — installable on phones from the browser (`public/manifest.json`)
 

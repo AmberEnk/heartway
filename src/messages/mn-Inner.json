@@ -25,6 +25,7 @@
     "matches": "ᠲᠠᠭᠤᠴᠢᠰᠠᠨ",
     "messages": "ᠵᠢᠰᠡᠭ",
     "blog": "ᠪᠯᠣᠭ",
+    "forum": "ᠹᠣᠷᠤᠮ",
     "profile": "ᠫᠷᠣᠹᠠᠢᠯ",
     "settings": "ᠲᠣᠬᠢᠷᠠᠭ᠎ᠠ",
     "login": "ᠨᠡᠪᠲᠡᠷᠡᠬᠦ",
@@ -36,7 +37,8 @@
     "heroTitle": "ᠲᠠᠨ ᠢ ᠣᠢᠯᠠᠭᠰᠠᠨ ᠬᠦᠮᠦᠨ ᠲᠡᠢ ᠤᠤᠯᠵᠠ",
     "heroSubtitle": "ᠤᠬᠠᠠᠯᠠᠭ᠎ᠠ ᠰᠣᠩᠭᠣ᠂ ᠤᠲᠠᠭ᠎ᠠ ᠲᠠᠭᠤᠴᠢᠵᠤ ᠠᠶᠤᠯᠭᠠᠭᠤᠷ᠎ᠠ ᠬᠣᠯᠪᠣᠭᠳᠠᠭᠠᠷᠠᠢ᠃",
     "ctaPrimary": "ᠦᠬᠡ ᠪᠦᠷᠲᠡᠭᠦᠯᠡᠬᠦ",
-    "ctaSecondary": "ᠪᠯᠣᠭ ᠤᠨᠤᠰᠠᠬᠤ",
+    "ctaSecondary": "ᠪᠯᠣᠭ & ᠨᠡᠭᠡᠭᠡᠮ",
+    "ctaForum": "ᠹᠣᠷᠤᠮ ᠳ᠋ᠤ ᠨᠡᠭᠡᠬᠦ",
     "featureSwipeTitle": "ᠰᠣᠩᠭᠣᠬᠤ & super like",
     "featureSwipeDesc": "ᠪᠦᠬᠦᠢ ᠲᠣᠬᠢᠷᠣᠭᠴᠢᠳ ᠳᠡᠭᠡᠷ᠎ᠡ ᠻᠠᠷᠲ ᠳᠠᠭᠠᠤ᠎ᠠ᠃",
     "featurePromptsTitle": "ᠫᠷᠣᠹᠠᠢᠯ ᠦᠨ ᠠᠰᠠᠭᠤᠯᠲ",
@@ -162,13 +164,58 @@
       "OTHER": "ᠪᠤᠰᠠᠳ"
     }
   },
+  "community": {
+    "title": "ᠨᠡᠭᠡᠭᠡᠮ",
+    "blog": "ᠪᠯᠣᠭ",
+    "forum": "ᠹᠣᠷᠤᠮ"
+  },
   "blog": {
-    "title": "ᠬᠠᠢᠷ & ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ",
-    "subtitle": "ᠬᠠᠢᠷ᠂ ᠬᠣᠯᠪᠣᠭ᠎ᠠ᠂ ᠡᠷᠦᠬᠡᠮ ᠬᠠᠷᠢᠯᠴᠠᠭ᠎ᠠ ᠶᠢᠨ ᠵᠥᠪᠯᠡᠯᠭᠡ᠃",
+    "title": "ᠲᠦᠦᠬᠡᠢ & ᠵᠥᠪᠯᠡᠯᠭᠡ",
+    "subtitle": "ᠤᠯᠠᠨ ᠭᠠᠳᠠᠠᠳ ᠠᠮᠢᠳᠠᠷᠠᠯ᠂ ᠬᠣᠶᠳ ᠠᠮᠧᠷᠢᠻ ᠳᠠᠬᠤ ᠮᠣᠩᠭᠣᠯ ᠠᠮᠢᠳᠠᠷᠠᠯ᠃",
     "readMore": "ᠤᠨᠤᠰᠠᠬᠤ",
     "empty": "ᠨᠢᠭᠡᠭᠡᠰᠡᠨ ᠨᠢᠶᠲᠡᠯᠡᠯ ᠦᠭᠡᠢ᠃",
     "backToList": "ᠪᠦᠬᠦᠢ ᠨᠢᠶᠲᠡᠯᠡᠯ",
     "publishedOn": "ᠨᠢᠭᠡᠭᠰᠡᠨ {date}"
+  },
+  "forum": {
+    "title": "ᠨᠡᠭᠡᠭᠡᠮ ᠦᠨ ᠹᠣᠷᠤᠮ",
+    "subtitle": "ᠠᠰᠠᠭᠤᠯᠲ ᠠᠰᠤᠵᠤ ᠵᠥᠪᠯᠡᠯᠭᠡ ᠬᠤᠪᠢᠠᠷᠠᠢ᠃",
+    "newTopic": "ᠰᠢᠨᠡ ᠰᠡᠳᠦᠪ",
+    "newTopicHint": "ᠡᠯᠡᠭᠦᠨ ᠪᠢᠴᠢᠬᠦ᠃",
+    "loginToPost": "ᠨᠡᠪᠲᠡᠷᠡᠵᠦ ᠨᠢᠭᠡᠭᠡ",
+    "loginToReply": "ᠬᠠᠷᠢᠤᠯᠬᠤ ᠳ᠋ᠤ ᠨᠡᠪᠲᠡᠷᠡ",
+    "empty": "ᠬᠡᠯᠡᠯᠴᠡᠭᠡ ᠦᠭᠡᠢ᠃",
+    "backToList": "ᠪᠦᠬᠦᠢ ᠰᠡᠳᠦᠪ",
+    "replyCount": "{count} ᠬᠠᠷᠢᠤᠯᠲ",
+    "replies": "{count} ᠬᠠᠷᠢᠤᠯᠲ",
+    "replyPlaceholder": "ᠬᠠᠷᠢᠤᠯᠲ ᠪᠢᠴᠢ…",
+    "postReply": "ᠬᠠᠷᠢᠤᠯᠬᠤ",
+    "postTopic": "ᠰᠡᠳᠦᠪ ᠨᠢᠭᠡᠭᠡ",
+    "posting": "ᠢᠯᠭᠡᠵᠦ…",
+    "topicTitlePlaceholder": "ᠭᠠᠷᠴᠢᠭ",
+    "topicBodyPlaceholder": "ᠶᠤᠤ ᠬᠡᠯᠡᠯᠴᠡᠬᠦ ᠪᠡ?",
+    "createError": "ᠠᠯᠳᠠᠭ᠎ᠠ᠃",
+    "replyError": "ᠠᠯᠳᠠᠭ᠎ᠠ᠃",
+    "pinned": "ᠣᠨᠴᠠᠯᠠᠭᠰᠠᠨ",
+    "locked": "ᠲᠦᠭᠡᠭᠰᠡᠨ",
+    "adminBadge": "ᠠᠳᠮᠢᠨ",
+    "delete": "ᠤᠰᠠᠳᠬᠤ",
+    "deleteReplyConfirm": "ᠤᠰᠠᠳᠬᠤ ᠤᠤ?"
+  },
+  "adminHub": {
+    "title": "ᠠᠳᠮᠢᠨ",
+    "subtitle": "ᠪᠯᠣᠭ ᠹᠣᠷᠤᠮ ᠤᠳᠤᠷᠳᠠᠬᠤ᠃",
+    "blog": "ᠪᠯᠣᠭ CMS",
+    "forum": "ᠹᠣᠷᠤᠮ ᠤᠳᠤᠷᠳᠠᠬᠤ"
+  },
+  "adminForum": {
+    "title": "ᠹᠣᠷᠤᠮ ᠠᠳᠮᠢᠨ",
+    "pin": "ᠣᠨᠴᠠᠯᠠᠬᠤ",
+    "unpin": "ᠪᠣᠯᠢᠬᠤ",
+    "lock": "ᠲᠦᠭᠡᠬᠦ",
+    "unlock": "ᠨᠡᠬᠡᠬᠦ",
+    "delete": "ᠤᠰᠠᠳᠬᠤ",
+    "deleteConfirm": "ᠤᠰᠠᠳᠬᠤ ᠤᠤ?"
   },
   "admin": {
     "title": "ᠪᠯᠣᠭ ᠠᠳᠮᠢᠨ",

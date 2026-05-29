@@ -42,6 +42,11 @@ export default async function HomePage({
               {t("ctaSecondary")}
             </Button>
           </Link>
+          <Link href="/forum">
+            <Button variant="ghost" className="w-full sm:w-auto">
+              {t("ctaForum")}
+            </Button>
+          </Link>
         </div>
       </section>
 

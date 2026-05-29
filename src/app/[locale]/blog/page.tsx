@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { AppShell } from "@/components/AppShell";
+import { CommunityTabs } from "@/components/CommunityTabs";
 import { prisma } from "@/lib/prisma";
 import { format } from "date-fns";
 
@@ -22,7 +23,8 @@ export default async function BlogPage({
   });
 
   return (
-    <AppShell showNav={!!posts.length}>
+    <AppShell>
+      <CommunityTabs />
       <h1 className="text-2xl font-bold">{t("title")}</h1>
       <p className="mt-1 text-[var(--muted)]">{t("subtitle")}</p>
 

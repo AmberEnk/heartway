@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import { AppShell } from "@/components/AppShell";
 import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/Input";
@@ -82,7 +83,12 @@ export default function AdminBlogPage() {
 
   return (
     <AppShell showNav={false}>
-      <h1 className="text-2xl font-bold">{t("title")}</h1>
+      <div className="mb-4 flex items-center justify-between">
+        <h1 className="text-2xl font-bold">{t("title")}</h1>
+        <Link href="/admin" className="text-sm text-[var(--muted)]">
+          ← Admin
+        </Link>
+      </div>
 
       <section className="mt-6 space-y-3 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4">
         <h2 className="font-semibold">{form.id ? t("editPost") : t("newPost")}</h2>

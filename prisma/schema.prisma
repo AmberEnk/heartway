@@ -63,6 +63,8 @@ model User {
   messagesSent    Message[]
   reportsFiled    Report[]  @relation("ReportsFiled")
   reportsReceived Report[]  @relation("ReportsReceived")
+  forumTopics     ForumTopic[]
+  forumReplies    ForumReply[]
 }
 
 model Account {
@@ -229,4 +231,35 @@ model BlogPost {
 
   @@unique([slug, locale])
   @@index([locale, published, publishedAt])
+}
+
+model ForumTopic {
+  id        String   @id @default(cuid())
+  authorId  String
+  author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  title     String
+  body      String   @db.Text
+  locale    String   @default("en")
+  isPinned  Boolean  @default(false)
+  isLocked  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  replies ForumReply[]
+
+  @@index([locale, isPinned, createdAt])
+  @@index([authorId])
+}
+
+model ForumReply {
+  id        String     @id @default(cuid())
+  topicId   String
+  topic     ForumTopic @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  authorId  String
+  author    User       @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  body      String     @db.Text
+  createdAt DateTime   @default(now())
+
+  @@index([topicId, createdAt])
+  @@index([authorId])
 }

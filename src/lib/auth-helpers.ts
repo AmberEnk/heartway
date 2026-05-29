@@ -1,6 +1,6 @@
 import { auth } from "@/auth";
-import { UserRole } from "@/generated/prisma/client";
 import { NextResponse } from "next/server";
+import { isAdminUser } from "@/lib/admin";
 
 export async function requireSession() {
   const session = await auth();
@@ -22,17 +22,7 @@ export async function requireAdmin() {
   const session = await requireSession();
   if (!session) return { session: null, error: unauthorized() };
 
-  const adminEmails = (process.env.ADMIN_EMAILS ?? "")
-    .split(",")
-    .map((e) => e.trim().toLowerCase())
-    .filter(Boolean);
-
-  const email = session.user.email?.toLowerCase() ?? "";
-  const isAdmin =
-    session.user.role === UserRole.ADMIN ||
-    (adminEmails.length > 0 && adminEmails.includes(email));
-
-  if (!isAdmin) {
+  if (!isAdminUser(session.user.email, session.user.role)) {
     return { session: null, error: forbidden() };
   }
 

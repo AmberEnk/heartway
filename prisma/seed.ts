@@ -24,30 +24,9 @@ async function main() {
     });
   }
 
-  const samplePosts = [
-    {
-      slug: "first-date-tips",
-      locale: "en",
-      title: "First date tips that actually work",
-      excerpt: "Keep it light, be yourself, and leave room for a second date.",
-      content:
-        "## Be present\n\nPut your phone away and listen more than you talk.\n\n## Choose comfort\n\nPick a place where you both can relax and exit gracefully if chemistry isn't there.",
-      published: true,
-      publishedAt: new Date(),
-    },
-    {
-      slug: "first-date-tips",
-      locale: "mn",
-      title: "Анхны уулзалтын зөвлөгөө",
-      excerpt: "Бага зэрэг, байгалийн бай, хоёр дахь уулзалт үлдээ.",
-      content:
-        "## Битгий утсаа барь\n\nСонсох нь ярихаас илүү чухал.\n\n## Тав тухтай газар сонго",
-      published: true,
-      publishedAt: new Date(),
-    },
-  ];
+  const { blogPostsSeed } = await import("./content-seed");
 
-  for (const post of samplePosts) {
+  for (const post of blogPostsSeed) {
     await prisma.blogPost.upsert({
       where: { slug_locale: { slug: post.slug, locale: post.locale } },
       create: post,
@@ -58,7 +37,10 @@ async function main() {
   const { seedDemoData } = await import("./demo-data");
   await seedDemoData(prisma);
 
-  console.log("Seed complete: prompts, blog posts, and demo profiles");
+  const { seedForum } = await import("./seed-forum");
+  await seedForum(prisma);
+
+  console.log("Seed complete: prompts, blog posts, forum topics, and demo profiles");
 }
 
 main()
