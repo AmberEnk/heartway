@@ -32,6 +32,14 @@ export default async function AdminHomePage({
             {t("forum")}
           </Link>
         </li>
+        <li>
+          <Link
+            href="/admin/matchmaking"
+            className="block rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 font-medium hover:border-[var(--primary)]"
+          >
+            {t("matchmaking")}
+          </Link>
+        </li>
       </ul>
     </AppShell>
   );

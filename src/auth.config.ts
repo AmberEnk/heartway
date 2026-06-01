@@ -19,7 +19,7 @@ export const authConfig = {
     authorized({ auth, request }) {
       const pathname = request.nextUrl.pathname;
       const pathWithoutLocale = pathname.replace(/^\/(en|mn|mn-Inner)/, "") || "/";
-      const isProtected = ["/discover", "/matches", "/messages", "/profile", "/settings", "/onboarding", "/forum/new"].some(
+      const isProtected = ["/discover", "/matches", "/messages", "/profile", "/settings", "/onboarding", "/forum/new", "/matchmaking"].some(
         (p) => pathWithoutLocale === p || pathWithoutLocale.startsWith(`${p}/`)
       );
       const isAdmin = pathWithoutLocale.startsWith("/admin");

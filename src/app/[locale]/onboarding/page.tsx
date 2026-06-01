@@ -81,7 +81,7 @@ export default function OnboardingPage() {
     setLoading(false);
 
     if (result.ok) {
-      router.push("/discover");
+      router.push("/matchmaking/intake");
       router.refresh();
       return;
     }

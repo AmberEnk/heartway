@@ -22,6 +22,7 @@
   },
   "nav": {
     "discover": "ᠡᠷᠬᠡᠬᠦ",
+    "matchmaking": "ᠲᠠᠨᠢᠯᠴᠤᠭᠤᠯᠬᠤ",
     "matches": "ᠲᠠᠭᠤᠴᠢᠰᠠᠨ",
     "messages": "ᠵᠢᠰᠡᠭ",
     "blog": "ᠪᠯᠣᠭ",
@@ -204,9 +205,10 @@
   },
   "adminHub": {
     "title": "ᠠᠳᠮᠢᠨ",
-    "subtitle": "ᠪᠯᠣᠭ ᠹᠣᠷᠤᠮ ᠤᠳᠤᠷᠳᠠᠬᠤ᠃",
+    "subtitle": "ᠪᠯᠣᠭ ᠹᠣᠷᠤᠮ ᠲᠠᠨᠢᠯᠴᠤᠭᠤᠯᠬᠤ ᠤᠳᠤᠷᠳᠠᠬᠤ",
     "blog": "ᠪᠯᠣᠭ CMS",
-    "forum": "ᠹᠣᠷᠤᠮ ᠤᠳᠤᠷᠳᠠᠬᠤ"
+    "forum": "ᠹᠣᠷᠤᠮ ᠤᠳᠤᠷᠳᠠᠬᠤ",
+    "matchmaking": "ᠲᠠᠨᠢᠯᠴᠤᠭᠤᠯᠬᠤ ᠳᠠᠷᠠᠭᠠᠯ"
   },
   "adminForum": {
     "title": "ᠹᠣᠷᠤᠮ ᠠᠳᠮᠢᠨ",
@@ -244,5 +246,145 @@
     "terms": "ᠨᠥᠬᠴᠡᠯ",
     "safety": "ᠠᠶᠤᠯᠭ᠎ᠠ",
     "copyright": "© {year} Heartway"
+  },
+  "matchmaking": {
+    "title": "Curated matchmaking",
+    "subtitle": "Personal intros for Mongols in {city} and across North America — no endless swiping.",
+    "loading": "Loading…",
+    "statusInQueue": "You're in the queue",
+    "statusHint": "Our team is reviewing profiles to find thoughtful matches.",
+    "queueHint": "You're not alone — {count} members are in the matchmaking queue. We typically send curated intros within a few weeks.",
+    "yourCity": "Your city: {city}",
+    "editIntake": "Update my questionnaire",
+    "pendingIntros": "Intro waiting for you",
+    "newIntroBadge": "Curated intro",
+    "viewIntro": "View & respond →",
+    "swipeLater": "Swipe discover will open when enough members join your area.",
+    "status": {
+      "DRAFT": "Questionnaire incomplete",
+      "IN_QUEUE": "In queue",
+      "REVIEWING": "Being reviewed for a match",
+      "MATCHED": "Active match",
+      "PAUSED": "Paused"
+    },
+    "intake": {
+      "title": "Matchmaking questionnaire",
+      "intro": "Answer honestly — only Heartway staff see your full answers. We use this to hand-pick intros, including across cities when you're open to it.",
+      "backToHub": "← Matchmaking",
+      "stepLookingFor": "Goals",
+      "stepLocation": "Location",
+      "stepAboutYou": "About you",
+      "stepPartner": "Partner prefs",
+      "stepMobility": "Distance & moving",
+      "stepDealbreakers": "Dealbreakers",
+      "stepFinal": "Final",
+      "lookingForLabel": "What are you looking for? (select all that apply)",
+      "lookingFor": {
+        "FRIENDS": "Friends & community",
+        "DATING": "Casual dating",
+        "RELATIONSHIP": "Serious relationship",
+        "MARRIAGE": "Marriage-minded",
+        "NOT_SURE": "Not sure yet"
+      },
+      "country": "Country",
+      "countryUS": "United States",
+      "countryCanada": "Canada",
+      "stateOrProvince": "State / province",
+      "city": "City",
+      "yearsInNa": "Years in North America",
+      "speaksMongolian": "I speak Mongolian",
+      "introvertLevel": "Social energy",
+      "introvertScale": "Level {level} — 1 = very introverted, 5 = very outgoing",
+      "personalityNotes": "How would friends describe you?",
+      "personalityPlaceholder": "Warm, direct, funny, ambitious…",
+      "lifestyleNotes": "Lifestyle (work, hobbies, weekends)",
+      "lifestylePlaceholder": "Gym, cooking, hiking, gaming, family time…",
+      "partnerMinAge": "Minimum age",
+      "partnerMaxAge": "Maximum age",
+      "partnerGenders": "Interested in",
+      "matchScope": "Where should we look for matches?",
+      "matchScopeOptions": {
+        "SAME_CITY": "Same city only",
+        "SAME_STATE": "Same state / province",
+        "SAME_COUNTRY": "Anywhere in my country",
+        "US_OR_CANADA": "US or Canada (if both agree)"
+      },
+      "openToLongDistance": "Open to long-distance for 6+ months (video dates first)",
+      "willingToRelocate": "Willing to relocate for the right person",
+      "relocateOptions": {
+        "NO": "No",
+        "MAYBE": "Maybe, for the right match",
+        "YES_WITHIN_YEAR": "Yes, within a year"
+      },
+      "dealbreakersLabel": "Hard dealbreakers (I don't want someone who…)",
+      "dealbreakers": {
+        "HAS_CHILDREN": "Has children (if that's not OK for me)",
+        "WANTS_CHILDREN_SOON": "Wants children very soon",
+        "SMOKING": "Smokes",
+        "HEAVY_DRINKING": "Drinks heavily",
+        "DIFFERENT_FAITH": "Requires a different faith than mine",
+        "NOT_MONOGAMOUS": "Is not monogamous",
+        "NO_LONG_DISTANCE": "Won't do any long distance"
+      },
+      "avoidBehaviorsLabel": "Behaviors I want to avoid",
+      "avoidBehaviors": {
+        "JEALOUS_CONTROLLING": "Jealous or controlling",
+        "DISRESPECTS_CULTURE": "Disrespects Mongolian culture or family",
+        "GHOSTING": "Ghosting without communication",
+        "RUDENESS": "Rude to others",
+        "DISHONESTY": "Dishonesty about intentions"
+      },
+      "mustHavesLabel": "Important qualities in a partner",
+      "mustHaves": {
+        "SPEAKS_MONGOLIAN": "Speaks Mongolian",
+        "SAME_FAITH": "Same faith / values",
+        "NON_SMOKER": "Non-smoker",
+        "FAMILY_ORIENTED": "Family-oriented",
+        "READY_FOR_RELATIONSHIP": "Ready for a real relationship"
+      },
+      "whatYouWant": "In your own words, what kind of person and relationship do you want?",
+      "whatYouWantPlaceholder": "Be specific — values, communication style, what a good partnership looks like to you…",
+      "anythingElse": "Anything else we should know?",
+      "consentNote": "By submitting, you agree that Heartway staff may read your answers to suggest curated intros. We never share your full questionnaire with other members.",
+      "back": "Back",
+      "next": "Next",
+      "submit": "Join the matchmaking queue",
+      "submitting": "Submitting…",
+      "submitError": "Could not save. Check required fields and try again."
+    },
+    "intro": {
+      "back": "← Matchmaking",
+      "fromMatchmaker": "Note from your Heartway matchmaker",
+      "speaksMongolianYes": "Speaks Mongolian",
+      "speaksMongolianNo": "Does not speak Mongolian",
+      "yearsInNa": "{years} years in North America",
+      "whatTheyWant": "What they're looking for",
+      "personality": "Personality",
+      "accept": "Yes, I'd like to connect",
+      "decline": "Not this time",
+      "waitingForOther": "You accepted — waiting for their response.",
+      "mutualMatch": "It's a mutual match!",
+      "declined": "This intro is closed.",
+      "openChat": "Open chat →"
+    }
+  },
+  "adminMatchmaking": {
+    "title": "Matchmaking admin",
+    "queueTitle": "Queue ({count})",
+    "createIntro": "Send curated intro",
+    "introNotePlaceholder": "Explain why you paired them — both members will see this note…",
+    "sendIntro": "Send intro to both members",
+    "sending": "Sending…",
+    "createError": "Could not create intro",
+    "recentIntros": "Recent intros",
+    "lookingFor": "Looking for",
+    "mobility": "Mobility",
+    "partnerAge": "Partner age",
+    "dealbreakers": "Dealbreakers",
+    "avoid": "Avoid",
+    "mustHaves": "Must-haves",
+    "whatTheyWant": "What they want",
+    "personality": "Personality",
+    "lifestyle": "Lifestyle"
   }
 }

@@ -10,9 +10,11 @@ import {
   BookOpen,
   MessagesSquare,
   Settings,
+  Sparkles,
 } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { MATCHMAKING_CONFIG } from "@/lib/matchmaking-config";
 import { cn } from "@/lib/utils";
 
 export function AppShell({
@@ -28,7 +30,9 @@ export function AppShell({
 
   const navItems = session
     ? [
-        { href: "/discover", icon: Compass, label: t("discover") },
+        ...(MATCHMAKING_CONFIG.discoverEnabled
+          ? [{ href: "/discover", icon: Compass, label: t("discover") }]
+          : [{ href: "/matchmaking", icon: Sparkles, label: t("matchmaking") }]),
         { href: "/matches", icon: Heart, label: t("matches") },
         { href: "/messages", icon: MessageCircle, label: t("messages") },
         { href: "/blog", icon: BookOpen, label: t("blog") },

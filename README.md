@@ -4,7 +4,8 @@ A responsive dating web app (Tinder / Bumble / Hinge–style) built with **Next.
 
 ## Features
 
-- **Discover** — swipe pass / like / super like with optional comment (Hinge-style)
+- **Curated matchmaking** — detailed intake questionnaire; admin hand-picks intros; both accept before chat opens
+- **Discover (swipe)** — optional; off by default until `NEXT_PUBLIC_DISCOVER_ENABLED=true`
 - **Profile prompts** — answer prompts on your profile
 - **Matches & messaging** — real-time polling chat; optional **women message first** (Bumble-style)
 - **Safety** — report users (harassment, spam, fake profile, etc.)

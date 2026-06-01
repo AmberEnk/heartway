@@ -22,7 +22,7 @@ export default async function HomePage({
         <p className="mt-4 text-[var(--muted)]">{t("heroSubtitle")}</p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
           {session ? (
-            <Link href="/discover">
+            <Link href="/matchmaking">
               <Button className="w-full sm:w-auto">{t("ctaPrimary")}</Button>
             </Link>
           ) : (

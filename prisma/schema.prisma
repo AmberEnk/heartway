@@ -41,6 +41,48 @@ enum ReportStatus {
   RESOLVED
 }
 
+enum MatchmakingQueueStatus {
+  DRAFT
+  IN_QUEUE
+  REVIEWING
+  MATCHED
+  PAUSED
+}
+
+enum LookingFor {
+  FRIENDS
+  DATING
+  RELATIONSHIP
+  MARRIAGE
+  NOT_SURE
+}
+
+enum RelocateWillingness {
+  NO
+  MAYBE
+  YES_WITHIN_YEAR
+}
+
+enum MatchScope {
+  SAME_CITY
+  SAME_STATE
+  SAME_COUNTRY
+  INTERNATIONAL
+}
+
+enum IntroResponse {
+  PENDING
+  ACCEPTED
+  DECLINED
+}
+
+enum CuratedIntroStatus {
+  AWAITING
+  MUTUAL
+  DECLINED
+  CANCELLED
+}
+
 model User {
   id            String    @id @default(cuid())
   email         String    @unique
@@ -65,6 +107,9 @@ model User {
   reportsReceived Report[]  @relation("ReportsReceived")
   forumTopics     ForumTopic[]
   forumReplies    ForumReply[]
+  matchmakingIntake MatchmakingIntake?
+  curatedIntrosAsA  CuratedIntro[] @relation("CuratedIntroUserA")
+  curatedIntrosAsB  CuratedIntro[] @relation("CuratedIntroUserB")
 }
 
 model Account {
@@ -180,10 +225,12 @@ model Match {
   userBId              String
   userB                User      @relation("MatchUserB", fields: [userBId], references: [id], onDelete: Cascade)
   messagingUnlockedFor String?
+  isCurated            Boolean   @default(false)
   createdAt            DateTime  @default(now())
   lastMessageAt        DateTime?
 
-  messages Message[]
+  messages     Message[]
+  curatedIntro CuratedIntro?
 
   @@unique([userAId, userBId])
 }
@@ -262,4 +309,72 @@ model ForumReply {
 
   @@index([topicId, createdAt])
   @@index([authorId])
+}
+
+model MatchmakingIntake {
+  id     String @id @default(cuid())
+  userId String @unique
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  status      MatchmakingQueueStatus @default(DRAFT)
+  completedAt DateTime?
+
+  lookingFor LookingFor[]
+
+  country             String?
+  stateOrProvince     String?
+  city                String?
+  yearsInMongolia     Int?
+
+  speaksMongolian Boolean?
+  introvertLevel  Int?
+
+  matchScope         MatchScope          @default(SAME_CITY)
+  openToLongDistance Boolean             @default(false)
+  willingToRelocate  RelocateWillingness @default(NO)
+
+  partnerMinAge  Int?
+  partnerMaxAge  Int?
+  partnerGenders Json @default("[]")
+
+  dealbreakers       Json @default("[]")
+  customDealbreakers Json @default("[]")
+  avoidBehaviors     Json @default("[]")
+  partnerMustHaves Json @default("[]")
+
+  personalityNotes String? @db.Text
+  lifestyleNotes   String? @db.Text
+  whatYouWant      String? @db.Text
+  anythingElse     String? @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status, completedAt])
+}
+
+model CuratedIntro {
+  id      String @id @default(cuid())
+  userAId String
+  userA   User   @relation("CuratedIntroUserA", fields: [userAId], references: [id], onDelete: Cascade)
+  userBId String
+  userB   User   @relation("CuratedIntroUserB", fields: [userBId], references: [id], onDelete: Cascade)
+
+  introNote String @db.Text
+
+  userAStatus IntroResponse      @default(PENDING)
+  userBStatus IntroResponse      @default(PENDING)
+  status      CuratedIntroStatus @default(AWAITING)
+
+  matchId String? @unique
+  match   Match?  @relation(fields: [matchId], references: [id], onDelete: SetNull)
+
+  createdById String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([status, createdAt])
+  @@index([userAId])
+  @@index([userBId])
 }
